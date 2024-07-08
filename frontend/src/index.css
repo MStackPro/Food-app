@@ -20,6 +20,16 @@ a {
   width: 80%;
   margin: auto;
 }
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: tomato;
+  transform-origin: 0%;
+  z-index: 199;
+}
 
 @keyframes fadeIn {
   0% {
